@@ -62,5 +62,8 @@ print(floor)
 rounded = round(5.5463,2) # this function is not a part of the math library but it rounds the first number to the amount of decimal the second number specifies
 print(rounded)
 
+absolute = abs(-4) # takes absolute value of the number
+print(absolute)
+
 # there are so many more functions in the math library and you can veiw them all by typing math. and viewing all the options
 
