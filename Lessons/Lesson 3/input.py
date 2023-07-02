@@ -13,7 +13,7 @@ print("Hello " + name) # this is a string operator
 age = input("How old are you? ") # this results in a string not an int
 
 # age = age + 5 this wont work and here is why:
-
+age = "5"
 # think about it this way, you can combine an int and a string
 # instead you have to use something called casting
 # casting is essentialy when you convert a value into a different type

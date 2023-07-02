@@ -1,0 +1,17 @@
+Write a Python program that performs basic mathematical operations. The program should do the following:
+
+Declare two variables, num1 and num2, and assign them integer values of your choice.
+Declare a variable named result and assign it the value of num1 multiplied by num2.
+Print the value of result using the print() statement.
+Use the math library to perform the following operations:
+a. Declare a variable rounded_result and assign it the rounded value of result.
+b. Declare a variable sqrt_result and assign it the square root of result.
+c. Declare a variable absolute_result and assign it the absolute value of result.
+Print the values of rounded_result, sqrt_result, and absolute_result using the print() statement.
+
+
+Here is a couple tips on how to do this:
+
+1. Use the print statement method in which you seperate each term with commas ex. print("Square root result:", sqrt_result). This way you can print a combination of different variable types. (remember you can add a string and an integer)
+2. use the math functions we used in class (abs,round,math.sqrt)
+3. use variables so that you can utilize certain values in different places

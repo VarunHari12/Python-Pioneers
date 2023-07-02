@@ -10,7 +10,7 @@ import math
 
 
 
-result = 5+6 # addition
+result = 5+6 # addition 
 print(result) # prints "11" not "5+6"
 
 result = 5-3 # subtraction
@@ -66,4 +66,7 @@ absolute = abs(-4) # takes absolute value of the number (also not a part of the 
 print(absolute)
 
 # there are so many more functions in the math library and you can veiw them all by typing math. and viewing all the options
+
+
+
 

@@ -71,7 +71,7 @@ boolean2 = False
 # is it raining?
 
 rainy = True # yes
-rainy =  False # no
+rainy = False # no
 
 print(rainy)
 
