@@ -1,0 +1,28 @@
+Lesson 1:
+
+IDE - Interactive development Enviroment (the software you use to write code)
+Language - A language that humans can write in a specific syntax that a computer can interpret into binary instructions
+Type - The type of data something stores
+String - Plain text
+Integers - Whole numbers
+Floats - Decimal values
+Booleans - True/False values
+Nonetype - None, Equivalent to nothing
+Overriding variables - declaring a varible again after its first declaration, therefore replacing its value
+Syntax - The rules that govern the structure of the symbols, words, and punctuation found in programming languages.
+Comments - Peices of code denoted by #'s that are not "run" and only serve the purpose of informing the programmer about what certain parts of code mean
+Variable - A named contanier that stores a certain type of data 
+operation/expression - It is a combination of one or more constants, variables, functions, and operators that the programming language interprets (think adding numbers or calling a function)
+Operator - A character/word that represents a specific action or process.
+Assignment operators: =, +=, -=, *=, /=, **=, %=
+Arithmetic operators: +, -, *, /, //, **, %
+Comparison operators: ==, !=, >, >, >=, <=
+Logical operators: and, or, not
+Identity operators: is, is not
+Membership operators: in, not in
+function - A peice of code that can be used by a programmer to complete small customized tasks 
+library - a collection of prewritten code that programmers can use to optimize tasks often written by other people
+function call - using a fucntion
+parameters/arguments - the items you pass into a function (what you put inside the parentheses)
+// (floor division operator) - results in the part of the quotient without the remainder
+% (Modulus operator) - results in the remainder without the quotient

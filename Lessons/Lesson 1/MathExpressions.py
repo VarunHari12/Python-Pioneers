@@ -59,7 +59,7 @@ print(pi)
 floor = math.floor(5.6) # this function takes the number an rounds down no matter what the number is
 print(floor)
 
-rounded = round(5.5463,2) # this fnction is not a part of the math library but it rounds the first number to the amount of decimal the second number specifies
+rounded = round(5.5463,2) # this function is not a part of the math library but it rounds the first number to the amount of decimal the second number specifies
 print(rounded)
 
 # there are so many more functions in the math library and you can veiw them all by typing math. and viewing all the options

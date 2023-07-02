@@ -1,0 +1,49 @@
+
+def checkAndDisplayBudget(str, cats, revised, status, time):
+    
+    # If the mode is display, it displays the budgets on screen
+    if status == "display":
+        
+        # Shows all shapes and depending on the time parameter, shows a specific instructions label for the user
+        clipboard.visible = True
+        lock.visible = True
+        lock.toFront()
+        learn.visible = False
+        if time == "start":
+            startLabel.visible = True
+            midLabel.visible = False
+            startLabel.toFront()
+        elif time == "mid":
+            midLabel.visible = True
+            startLabel.visible = False
+            midLabel.toFront()
+            
+        # Shows the total money and establishes the Y value for the budgets
+        y = 135
+        totalS = Label(str,161,85,size = 20,font = "cinzel",fill = "limeGreen",bold = True)
+        totalM.visible = True
+        totalM.toFront()
+        
+        # Displays the budgets and its values evenly spaced out
+        for key in cats:
+            cat = Label(key,150,y,size = 20,font = "cinzel")
+            cat.left = 85
+            budget = Label(cats.get(key),270,y,size = 20, font = "cinzel")
+            budget.centerX = 265
+            y+=35
+            
+    # If the status is check, it checks what the first incorrect budget is that has not already been marked incorrect
+    elif status == "check":
+        
+        # The dictionary with the correct budgets
+        correct = {"Housing" : int(total*0.35), "Food" : int(total*0.15), "Insurance": int(total*0.20), "Transport" : int(total*0.15), "Medical" : int(total*0.1), "Leisure" : int(total*0.05)}
+        
+        
+        # If this is the last time locking the budget, display the review button and return "End"
+        if len(revised) >= len(cats):
+                return "End"
+        for key in cats:
+            #  Compares each of the user's budgets to the correct budgets and returns the first budget that is incorrect and boxes it
+            if (correct[key] - 200 > cats[key] or cats[key] > correct[key] + 200) and (key not in revised):
+                return key
+        drawCorrectLabels()

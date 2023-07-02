@@ -21,6 +21,7 @@ while x < 10:
 # an infinite loop is when a loop never stops
 # the way to prevent this is to make sure that there is always a way to stop the loop
 # in the case above, I incremented x to print all the varibles but also to eventualy make the loop stop
+# to stop an infinite loop do Ctrl C
 
 # lets look at an example of a infinite loop
 

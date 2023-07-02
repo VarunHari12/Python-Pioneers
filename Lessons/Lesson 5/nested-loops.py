@@ -26,3 +26,4 @@ while i <= 4 :
 
 # this prints out the first 3 mutliples of the numbers 1-4
 # lets walk throught this
+# when working with break and continue statements, if the break/continue is performed on the inner loop, it only performs that operation on the inner loop. If it is on the outer loop, it applies to both

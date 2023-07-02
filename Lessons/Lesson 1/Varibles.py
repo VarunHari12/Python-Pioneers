@@ -116,4 +116,4 @@ number = "hi" # string
 print(number)
 
 
-# these are some data types that we see in python but there are many others and other languages have more datatypes that differ based on precision ans speed
+# these are some data types that we see in python but there are many others and other languages have more datatypes that differ based on precision and speed

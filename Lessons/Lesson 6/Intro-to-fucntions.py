@@ -80,3 +80,6 @@ print(result)
 # this also a good example of scope because remeber the result we have in the function is not the same as the one we have outside
 
 
+# Why write a function?
+# if you are going to use the same operation over and over again, instead of re writing it evertime, you can use a function to decrease the length of your program
+
