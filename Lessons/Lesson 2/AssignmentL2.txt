@@ -1,0 +1,14 @@
+Generate a random number between 1 and 100 using the random module and assign it to a variable called random_num.
+Print the value of random_num on a new line.
+Create a variable called text and assign it the value "Hello, World!".
+Print the length of the text string on a new line using the appropriate string method.
+Convert the text string to uppercase and print the result on a new line.
+Extract the substring "Hello" from the text string using string slicing and print it on a new line.
+Extract the substring "World!" from the string and covert it to lower case. Finally, reverse the extracted string and print it
+
+Tips:
+
+Use a negative step, (-1), to reverse a string
+Remeber the string slicing syntax string[start:end:step]
+use the random.randint(start,end) to get the random
+Use all of the string methods we learned in class to do this assignment
