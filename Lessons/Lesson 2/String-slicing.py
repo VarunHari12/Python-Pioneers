@@ -66,3 +66,8 @@ print(sentence[2:12:2]) # prints eqikb
 
 print(sentence[::-1]) # prints god yzal eht revo spmuj xof nworb kciuq ehT
 print(sentence[::-2]) # prints gdya h eosmjxfnobkiqeT
+
+
+
+
+
