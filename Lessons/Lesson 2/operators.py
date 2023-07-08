@@ -1,5 +1,5 @@
 # What is an operator?
-# A character that represents a specific action or process.
+# A character or word that represents a specific action or process.
 # There are many different types of operators
 
 # Assignment operators: =, +=, -=, *=, /=, **=, %=

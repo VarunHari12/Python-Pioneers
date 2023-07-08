@@ -26,3 +26,15 @@ function call - using a fucntion
 parameters/arguments - the items you pass into a function (what you put inside the parentheses)
 // (floor division operator) - results in the part of the quotient without the remainder
 % (Modulus operator) - results in the remainder without the quotient
+terminal - a tab that shows the text output of your code
+
+
+
+
+
+Lesson 2:
+
+Slicing - extracting a part of something
+step - how much a certain value changes by
+indexing - using a number to represent the position of a certain item in a sequence
+negative indexing - indexing that starts from the end instead of the start

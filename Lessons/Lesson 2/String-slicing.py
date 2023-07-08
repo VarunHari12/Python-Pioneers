@@ -47,7 +47,7 @@ print(word[2:])
 # this can again be useful if you dont know what index the end of the string is 
 
 print(word[-1]) # last letter
-print(word[1:-2]) # ever letter up to the last 2
+print(word[0:-2]) # ever letter up to the last 2
 print(word[-3:]) # the last 3 letters
 
 

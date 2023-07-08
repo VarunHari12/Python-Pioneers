@@ -13,3 +13,4 @@ number = random.randrange(2,10,2) # this function is similar to randint but the 
 #ex. an increment of 2 will choose from [2,4,6,8,etc.] since it has an increment of 2
 print(number)
 
+
