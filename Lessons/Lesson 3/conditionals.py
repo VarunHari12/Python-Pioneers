@@ -87,7 +87,7 @@ if integer != 22: # != means not equal to so it checks to see if integer is not 
 # going back to operators, we can also use logical operators with if statements
 
 # the and statement says that both expression must be true for the if statement to be considered true
-# the or statement says that al least one of the expressions must be true for the expression to be considered true
+# the or statement says that at least one of the expressions must be true for the expression to be considered true
 # the not statement switches the value of the boolean for that expression
 # remember the entire expression has to evaluate to True for an if statement to pass
 # when using logical operators, it is good practice to use parentheses to organize the if statement

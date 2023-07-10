@@ -38,3 +38,11 @@ Slicing - extracting a part of something
 step - how much a certain value changes by
 indexing - using a number to represent the position of a certain item in a sequence
 negative indexing - indexing that starts from the end instead of the start
+
+
+
+Lesson 3:
+
+conditional - a statement that allows a program to alter its insructions if a certain condition is met
+nested - one statement inside of another
+Comparison operators: ==, !=, >, >, >=, <= 
