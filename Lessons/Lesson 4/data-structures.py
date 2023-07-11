@@ -1,3 +1,5 @@
+import random
+
 # Data structures are the fundamental constructs around which you build your programs. Each data structure provides a particular way of organizing data so it can be accessed efficiently, depending on your use case. 
 # there are 4 basic types of data structures in python
 
@@ -57,10 +59,16 @@ print(ages)
 age = ages.pop(3) # pop is similar to remove excpet it actually stores the removed item and also instead of using the element, it uses the index of the element. If no parameter is passed, pop just removes the last element of the list
 print(age)
 
-# one final thing to note is that you can find the length of a list by using the len function
+# You can find the length of a list by using the len function
 
 length = len(age)
 print(length)
+
+choice = random.choice(ages) # using this function from the random library allows you to make a random choice from a list or othr data structure
+print(choice)
+
+shuffle = random.shuffle(ages) # this function will completely randomize the order of whatever list you pass through
+print(shuffle)
 
 
 # to learn more list functions you can go to https://docs.python.org/3/tutorial/datastructures.html

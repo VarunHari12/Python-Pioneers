@@ -46,3 +46,13 @@ Lesson 3:
 conditional - a statement that allows a program to alter its insructions if a certain condition is met
 nested - one statement inside of another
 Comparison operators: ==, !=, >, >, >=, <= 
+
+
+Lesson 4:
+
+Data structure -  a classification of types that can store multiple items in an organized manner
+list - an ordered changeble data structure
+tuple - an ordered but unchangeble data structure
+set - an onordered data structure
+dictionary - a data structure that uses a form of key value pairs
+

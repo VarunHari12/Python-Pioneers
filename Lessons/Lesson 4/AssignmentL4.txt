@@ -1,0 +1,12 @@
+Description:
+The Magic 8 Ball is a fortune-telling toy that provides answers to yes-or-no questions. In this assignment, you will create a Python program that simulates the Magic 8 Ball's behavior using lists.
+
+
+1. Create a list named "answers" that contains at least 8 different answers (e.g., "It is certain", "Reply hazy, try again", "Don't count on it", etc.).
+2. Display a welcome message and allow the user to ask a question
+3. Randomly choose a result from the answers list store it in a variabe named result
+4. display result
+
+tips:
+use random.choice to get the random value
+use the input statement so that the code waits until the the user inputs a question
