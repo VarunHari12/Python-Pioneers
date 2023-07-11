@@ -2,7 +2,7 @@
 
 # this is how you write an if statement:
 # if (whatever you are checking):
-# (do this)
+#   (do this)
 
 # ex.
 
@@ -111,7 +111,7 @@ if (number == 10) or (word == "cool"):
     print("success")
 
 
-# this uses a not statement which switches switches the value of False to True and vice versa
+# this uses a not statement which switches the value of False to True and vice versa
 
 if (number == 10) and (not(word == "hello")):
     print("success")
@@ -140,7 +140,7 @@ if height == "5 feet":
     if weight == 105:
         print("You are normal weight and height")
     else:
-        print("You are normal height but not height")
+        print("You are normal height but not weight")
 
 else:
     print("You are not normal weight or height")
