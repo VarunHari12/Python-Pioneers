@@ -1,0 +1,17 @@
+Solve these problems using loops
+
+Problem 1:
+Write a program that prints the numbers from 1 to 10 using a for loop.
+
+Problem 2:
+Write a program that asks the user for a positive integer and prints the sum of all the numbers from 1 to that integer using a while loop
+
+
+Problem 3 (optional challenge):
+Write a program that prints out the folowing shape with loops:
+
+  *
+ ***
+*****
+ ***
+  *

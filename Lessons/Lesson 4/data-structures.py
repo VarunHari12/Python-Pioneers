@@ -61,7 +61,7 @@ print(age)
 
 # You can find the length of a list by using the len function
 
-length = len(age)
+length = len(ages)
 print(length)
 
 choice = random.choice(ages) # using this function from the random library allows you to make a random choice from a list or othr data structure
@@ -94,7 +94,7 @@ grades = {"Math": "A-",
           "Science" : "B", 
           "History": "A+"}
 
-# We access a value of the dictionary susing its key
+# We access a value of the dictionary using its key
 
 print(grades["English"]) # this is how we acces a value using its key
 print(grades["History"])
@@ -129,7 +129,7 @@ print(grades.clear()) # clears the dictionary
 # with unordered data structures, there can be no duplicates
 
 
-# you can also use casting on data structures by using th same methods we were using in the past
+# you can also use casting on data structures by using the same methods we were using in the past
 
 
 names = ("Bob","John","Max")
@@ -139,4 +139,5 @@ print(names)
 names = list(names)
 
 print(names)
+
 
