@@ -4,8 +4,8 @@
 # ex.
 x = 0
 
-while x < 10:
-    x += 1 # this is called an assignment operator (it is the same as saying x = x+1) it just adds whatever value you put to the varible
+while x == 1:
+    x += 2 # this is called an assignment operator (it is the same as saying x = x+1) it just adds whatever value you put to the varible
     print(x)
 
 # this while loop prints out all the numbers from 1-10

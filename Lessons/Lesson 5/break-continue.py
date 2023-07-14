@@ -33,7 +33,7 @@ while num < 10:
 
     print(num)
 
-# by using the continue statement we can skip printing all the numbers that are odd and only print the evens
+# by using the continue statement we can skip printing all the numbers that are even and only print the odds
 
 
 # Break

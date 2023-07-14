@@ -1,0 +1,40 @@
+Assignment: Student Grade Calculator
+
+Write a Python program that helps calculate the final grade of students based on their scores in different assignments and exams. Your program should include the following functions:
+
+calculate_average(scores): This function takes a list of scores as a parameter and returns the average of the scores.
+
+calculate_grade(score, total): This function takes a student's score and the total possible score as parameters and returns the corresponding letter grade based on the following grading scale:
+
+A: 90-100
+B: 80-89
+C: 70-79
+D: 60-69
+F: 0-59
+
+calculate_final_grade(assignments, exam): This function takes a list of assignment scores and an exam score as parameters. It calculates the average assignment and exam score to determine the final grade. 
+The function should call the calculate_average() and calculate_grade() functions to calculate and return the final letter grade.
+
+Your program should prompt the user to enter the following information:
+
+Number of assignments: The user should enter the number of assignments the student has completed.
+Scores for each assignment: The user should enter the score for each assignment.
+Exam score: The user should enter the score for the exam.
+Your program should then call the calculate_final_grade() function and display the final letter grade.
+
+tips:
+
+to get the correct amount of scores from the user, use a for loop that asks them how many assignments they have. Then use the range function to get the for loop to ask the user for their assignment grade the correct number of times.
+You will also want to add each number score to a list so it can be used in the calculate score function (make sure to cast them to ints)
+
+use return statements so that the functions give you the values needed
+
+you can call a function inside of a function as lopng as the function being called was established beforehand
+
+Use everything you have learned during this course to solve this problem and email me if you need help since this is a little harder than the rest of the assignments you've had.
+
+
+
+
+
+
