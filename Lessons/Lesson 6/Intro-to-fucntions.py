@@ -8,8 +8,10 @@
 
 # lets make our first function
 
-def Hello(name):
+
+def Hello(name):    
     print("Hello " + name)
+
 
 # this is a function
 # in the parentheses is something tcalled a parameter. It is essentialy input the programming uses to create their desired output
@@ -34,6 +36,7 @@ Hello("Varun")
 # lets try writing another function with more parameters
 
 def Hello_extra(name,age,gender):
+    Hello("hi")
     print("Hello " + name + " you are " + str(age) + " years old and you are a " + gender) 
 
 Hello_extra("Varun",15,"male")
@@ -81,5 +84,5 @@ print(result)
 
 
 # Why write a function?
-# if you are going to use the same operation over and over again, instead of re writing it evertime, you can use a function to decrease the length of your program
+# if you are going to use the same operation over and over again, instead of re writing it everytime, you can use a function to decrease the length of your program
 
