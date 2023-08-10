@@ -1,6 +1,6 @@
 Write a Python program that performs basic mathematical operations. The program should do the following:
 
-Declare two variables, num1 and num2, and assign them integer values of your choice.
+Declare two variables, num1 and num2, and assign them integer/float values of your choice.
 Declare a variable named result and assign it the value of num1 multiplied by num2.
 Print the value of result using the print() statement.
 Use the math library to perform the following operations:

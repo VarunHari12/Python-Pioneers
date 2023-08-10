@@ -2,6 +2,7 @@
 # A print statement displays text in the terminal
 
 print("Hello World")
+print("Hello I am bob")
 
 
 # you can put anything you want in these quotations marks
@@ -18,7 +19,6 @@ print(5) # a number with and without quotation marks are a little different
 print("Hello World")
 
 print("Hello","World") # envision there is a space in between each comma
-print("a","b","c","d","e",sep = "|") # the sep signifies what seperates each term (optional term)
 print("result:",13) # you can use values of 2 different types if you use this method
 
 print("Hello" + " World") # combining each term into a full phrase

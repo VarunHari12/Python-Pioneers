@@ -9,8 +9,8 @@ print(phrase.isalpha()) # Returns the boolean True if all characters in the stri
 print(numbers.isdigit()) # Returns the boolean True if all characters in the string numbers
 print(phrase.lower()) # Makes the enitre string lower case
 print(phrase.upper()) # Makes the entire string upper case
-print(phrase.replace("o", "a")) # Replaces all instances of the first string with the second string
-print(phrase.islower())  # Returns the boolean True if all characters in the string are lowercase
+print(phrase.replace("Hello", "a")) # Replaces all instances of the first string with the second string
+print(phrase.islower()) # Returns the boolean True if all characters in the string are lowercase
 print(phrase.isupper()) # Returns the boolean True if all characters in the string are uppercase
 print(len(phrase)) # you can use this len function to find the length of a sequence. In this case we are using it on a string
 

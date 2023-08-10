@@ -29,7 +29,7 @@ You will also want to add each number score to a list so it can be used in the c
 
 use return statements so that the functions give you the values needed
 
-you can call a function inside of a function as lopng as the function being called was established beforehand
+you can call a function inside of a function as long as the function being called was established beforehand
 
 Use everything you have learned during this course to solve this problem and email me if you need help since this is a little harder than the rest of the assignments you've had.
 

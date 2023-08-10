@@ -14,3 +14,4 @@ number = random.randrange(2,10,2) # this function is similar to randint but the 
 print(number)
 
 
+

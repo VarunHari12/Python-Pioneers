@@ -17,6 +17,7 @@
 
 
 word = "Hello"
+#       01234
 
 # if we want one specific letter we can do this
 
@@ -32,6 +33,7 @@ print(word[0:2]) # this will print He
 # additionaly we can do the same thing we did above by doing this
 
 print(word[:2])
+print(word[2:])
 
 # when you put nothing between the colon, it defaults to choosing the start/end
 

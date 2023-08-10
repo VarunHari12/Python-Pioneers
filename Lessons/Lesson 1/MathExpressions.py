@@ -3,10 +3,8 @@ import math
 # Mathematical expressions
 
 
-# Just like we can store numbers in variables, we can also store Mathematical expressions in a variable
+# Just like we can store numbers in variables, we can also store expressions in a variable
 # ex.
-
-
 
 
 
@@ -66,6 +64,9 @@ absolute = abs(-4) # takes absolute value of the number (also not a part of the 
 print(absolute)
 
 # there are so many more functions in the math library and you can veiw them all by typing math. and viewing all the options
+
+
+
 
 
 

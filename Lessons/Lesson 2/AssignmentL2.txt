@@ -6,6 +6,7 @@ Convert the text string to uppercase and print the result on a new line.
 Extract the substring "Hello" from the text string using string slicing and print it on a new line.
 Extract the substring "World!" from the string and covert it to lower case. Finally, reverse the extracted string and print it
 
+
 Tips:
 
 Use a negative step, (-1), to reverse a string
