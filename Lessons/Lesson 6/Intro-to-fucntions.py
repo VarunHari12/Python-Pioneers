@@ -9,9 +9,8 @@
 # lets make our first function
 
 
-def Hello(name):    
+def Hello(name):   
     print("Hello " + name)
-
 
 # this is a function
 # in the parentheses is something tcalled a parameter. It is essentialy input the programming uses to create their desired output
@@ -50,22 +49,24 @@ def Hello_World():
     print("Hello World")
 
 
-Hello_World()
+print(Hello_World())
 
 # when you want to use something as a placeholder you can do this
 
 def empty():
     pass
 
+
 # this just acts as placeholder text so that you dont get an error, this works with conditionals and loops too
 
 # Return
 # the return statement is a statement that allows you get a certain output value from your function
 
-# def add(x,y):
-#     result = x+y
+def add(x,y):
+    result = x+y
 
-# print(add(3,6))
+print(add(3,6))
+
 
 # this doesnt actually do anything since the fucntion never RETURNS a value back to the user
 # instead it should be written like this

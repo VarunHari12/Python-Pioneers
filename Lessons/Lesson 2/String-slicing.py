@@ -16,12 +16,13 @@
 #  012345678910
 
 
-word = "Hello"
+word = "Hello" 
 #       01234
+#       
 
 # if we want one specific letter we can do this
 
-print(word[2]) # this will print l
+print(word[2]) # this will print l word[2] = "l"
 
 print(word[0]) # this will print H
 
@@ -48,7 +49,7 @@ print(word[2:])
 # in this case, and index of -1 is the last character, -2 is the second to last and so on
 # this can again be useful if you dont know what index the end of the string is 
 
-print(word[-1]) # last letter
+print(word[-1]) # last letter o
 print(word[0:-2]) # ever letter up to the last 2
 print(word[-3:]) # the last 3 letters
 
@@ -62,7 +63,7 @@ print(word[::2]) # every other letter since it skips one
 
 sentence = "The quick brown fox jumps over the lazy dog"
 
-print(sentence[2:12:2]) # prints eqikb
+print(sentence[2:12:2])  
 
 # we can also print things in reverse by doing this
 

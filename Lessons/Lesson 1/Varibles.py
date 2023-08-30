@@ -65,7 +65,7 @@ print(money)
 
 # booleans are true/false Value
 
-boolean1 = True
+boolean1 = True 
 boolean2 = False
 
 # is it raining?

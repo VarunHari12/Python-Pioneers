@@ -9,7 +9,7 @@
 numbers = [9,11,13,14,17,9,9]
 for i in range(0,len(numbers)):
     number = numbers[i]
-    if number >= 10:
+    if number == 10:
         continue
     number += 1
     numbers[i] = number

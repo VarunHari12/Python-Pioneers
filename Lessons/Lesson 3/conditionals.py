@@ -3,13 +3,17 @@
 # this is how you write an if statement:
 # if (whatever you are checking):
 #   (do this)
+#   gsg
+#   RGSDFG
+
 
 # ex.
 
 rainy = True
 
-if rainy == True:
+if rainy == True: # rainy is True
     print("it is rainy")
+
 
 # what is the difference between == and =?
 # = assigns that value to a variable
@@ -18,7 +22,7 @@ if rainy == True:
 
 # there is also something called an else statement
 
-sunny = False
+sunny = True
 if sunny == True:
     print("It is sunny")
 else:
@@ -34,6 +38,8 @@ if mood == "Happy":
     print("You are happy")
 elif mood == "Sad":
     print("You are sad")
+elif mood == "Angry":
+    print("Angry")
 else:
     print("You are not happy or sad")
 
@@ -81,7 +87,7 @@ if integer > 10:
 if integer <= 20:
     print(integer)
 
-if integer != 22: # != means not equal to so it checks to see if integer is not equal to 22
+if (integer != 22): # != means not equal to so it checks to see if integer is not equal to 22
     print(integer)
 
 # going back to operators, we can also use logical operators with if statements
@@ -98,7 +104,7 @@ if integer != 22: # != means not equal to so it checks to see if integer is not 
 number = 5
 word = "hello"
 
-if (number == 5) and (word == "hello"):
+if (number == 5) and (word == "hello"): # TT 
     print("success")
 
 
@@ -107,13 +113,13 @@ if (number == 5) and (word == "hello"):
 number = 10
 word = "awesome"
 
-if (number == 10) or (word == "cool"):
+if (number == 10) or (word == "cool"): # TT TF FT
     print("success")
 
 
 # this uses a not statement which switches the value of False to True and vice versa
 
-if (number == 10) and (not(word == "hello")):
+if (number == 10) and (not(word == "hello")): # TT
     print("success")
 
 
@@ -132,7 +138,7 @@ if ((weather == "sunny") or (weather == "rainy")) and (day == "monday"):
 # ex.
 
 
-weight = 105
+weight = 110
 height = "5 feet"
 
 if height == "5 feet":
@@ -173,11 +179,20 @@ elif age < 20:
     print("You are less than 20 and greater than 15")
 
 
+
 # the difference is that with elifs, it skips the rest of the if's if one of them is satisfied
 # it allows for more customization and conveniece
 # alternative technically you could use a bunch of nested conditionals but it is very tedious and a waste of time
 # the aim of a programmer is to be lazy and to make things as easy as possible
 
+
+
+
+
+
+
+"2"
+2
 
 
     

@@ -9,7 +9,7 @@ import random
 # a list is an ordered and mutable collection of data that can be indexed to
 # ex.
 
-names = ["John", "Bob", "Jimmy", "Emily"]
+names = ["John", "Bob", "Jimmy", "Emily"] 
 
 print(names)
 
@@ -20,10 +20,13 @@ print(names)
 print(names[0])
 print(names[3])
 print(names[-1])
+print(names[0:2])
+
 
 # we can also change an element in a list buy doing as follows
 
 names[2] = "Julia"
+print(names)
 
 # elements of a list can be anything even other lists
 
@@ -68,7 +71,7 @@ choice = random.choice(ages) # using this function from the random library allow
 print(choice)
 
 shuffle = random.shuffle(ages) # this function will completely randomize the order of whatever list you pass through
-print(shuffle)
+print(ages)
 
 
 # to learn more list functions you can go to https://docs.python.org/3/tutorial/datastructures.html
@@ -94,6 +97,7 @@ grades = {"Math": "A-",
           "Science" : "B", 
           "History": "A+"}
 
+
 # We access a value of the dictionary using its key
 
 print(grades["English"]) # this is how we acces a value using its key
@@ -114,6 +118,7 @@ print(grades.keys()) # returns a list containing all the keys in the dictionary
 print(grades.values()) # returns a list containing all the values in the dictionary
 
 print(grades.clear()) # clears the dictionary
+
 
 # again there are many more methods to explore and you can see them here https://www.w3schools.com/python/python_ref_dictionary.asp
 

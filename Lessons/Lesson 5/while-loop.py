@@ -4,11 +4,10 @@
 # ex.
 x = 0
 
-while x == 1:
-    x += 2 # this is called an assignment operator (it is the same as saying x = x+1) it just adds whatever value you put to the varible
+while x != 6:
+    x += 2 # this is called an assignment operator (it is the same as saying x = x+2) it just adds whatever value you put to the varible
     print(x)
 
-# this while loop prints out all the numbers from 1-10
 
 # lets break down the anatomy of a while loop
 
@@ -65,5 +64,3 @@ while (x < 10) and (x != 5):
     print(x)
 
 # why does this work and the other doesn't?
-
-# In conlcusion, while loops 

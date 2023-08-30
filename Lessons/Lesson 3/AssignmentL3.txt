@@ -1,15 +1,15 @@
 Create a basic four function calculator:
 
-1. Store the operation the user wants to do in a variable named operator (*,/,+-)
+1. Store the operation the user wants to do in a variable named operator (*,/,+,-)
 2. Depending on the operator, display a text that asks them the first number ex. and store the input into a variable names num1. (if * was chosen "What is the first number you want to multiply")
 3. Do the same but name the variable num2 and ask for the second number
 4. Display the result of the operation and accompany it with text stating what the operation was
 
 tips:
 
-use a statement like this if operation == "/":
-remeber that you have to use casting to make the strings into integers/floats
-remeber the difference between elif's and if's 
+use a statement like this if operator == "/":
+remember that you have to use casting to make the strings into floats
+remember the difference between elif's and if's 
 
 
 optional:

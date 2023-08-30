@@ -5,7 +5,7 @@
 
 for column in range(1,4):
     for row in range(1,5):
-        print("0",end = "")    
+        print("0",end = "")    # 0000
     print("\n",end = "")
 
 # so how does this run?
@@ -16,7 +16,7 @@ for column in range(1,4):
 
 
 i = 1
-while i <= 4 :
+while i <= 4:
     j = 0
     while  j <= 3 :
         print(i*j, end=" ")

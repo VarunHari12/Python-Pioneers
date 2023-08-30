@@ -29,7 +29,7 @@ age = age + 5
 
 # now we have to convert age back to a string so tha it can be printed with other strings
 
-age  = str(age) # age is a str now
+age  = str(age) # age is a str now 5 -> "5"
 
 print("Your age plus five is " + age)
 
