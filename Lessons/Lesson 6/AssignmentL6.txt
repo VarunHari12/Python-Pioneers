@@ -3,12 +3,13 @@ Assignment: Student Grade Calculator
 Write a Python program that helps calculate the final grade of students based on their scores in different assignments and exams. Your program should include the following functions:
 
 calculate_average(scores): This function takes a list of scores as a parameter and returns the average of the scores.
+do this by making a for loop to add all the values in the list. Then divide by the length of the list
 
 calculate_grade(score, total): This function takes a student's score and the total possible score as parameters and returns the corresponding letter grade based on the following grading scale:
 
-A: 90-100
+A: 90-100 "A"
 B: 80-89
-C: 70-79
+C: 70-79 "C"
 D: 60-69
 F: 0-59
 
@@ -17,7 +18,7 @@ The function should call the calculate_average() and calculate_grade() functions
 
 Your program should prompt the user to enter the following information:
 
-Number of assignments: The user should enter the number of assignments the student has completed.
+(optional but default to 3) Number of assignments: The user should enter the number of assignments the student has completed.
 Scores for each assignment: The user should enter the score for each assignment.
 Exam score: The user should enter the score for the exam.
 Your program should then call the calculate_final_grade() function and display the final letter grade.

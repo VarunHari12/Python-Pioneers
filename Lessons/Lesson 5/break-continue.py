@@ -49,15 +49,13 @@ for i in range(10):
 # here is a more practical one
 
 
-numbers = []
-
 number = 15
 
 while True:
     guess = input("Guess my number (1-20): ")
     digit = guess.isdigit()
 
-    if digit:
+    if digit == True:
         if int(guess) == number:
             print("You got the number correct! ")
             break

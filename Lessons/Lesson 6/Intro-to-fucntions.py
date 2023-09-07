@@ -8,9 +8,15 @@
 
 # lets make our first function
 
-
-def Hello(name):   
+def Hello(name):
+    number = 3
     print("Hello " + name)
+
+
+# print(name)
+# print(number)
+
+
 
 # this is a function
 # in the parentheses is something tcalled a parameter. It is essentialy input the programming uses to create their desired output
@@ -21,7 +27,7 @@ def Hello(name):
 # lets call this function
 # a call to a function is essentially just using a function
 
-Hello("Varun")
+Hello("Max")
 
 # we must say the name of the function then in the parentheses, list a value for every argument (parameter and argument are interchangle terms) the function needs in the same exact order
 
@@ -40,6 +46,9 @@ def Hello_extra(name,age,gender):
 
 Hello_extra("Varun",15,"male")
 
+
+Hello_extra(gender = "male", name = "Varun", age = 15)
+
 # remember you have to stay consistent with the order of the parameters in the fucntion declaration and call
 # you cant forget to pass the neccesary arguments
 # we can pass any type of varible as an argument
@@ -49,7 +58,6 @@ def Hello_World():
     print("Hello World")
 
 
-print(Hello_World())
 
 # when you want to use something as a placeholder you can do this
 

@@ -47,3 +47,4 @@ def checkAndDisplayBudget(str, cats, revised, status, time):
             if (correct[key] - 200 > cats[key] or cats[key] > correct[key] + 200) and (key not in revised):
                 return key
         drawCorrectLabels()
+
