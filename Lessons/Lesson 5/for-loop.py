@@ -3,8 +3,8 @@
 
 fruits = ["apple", "orange", "blueberry", "grape"]
 
-for i in fruits:
-    print(i)
+for fruit in fruits:
+    print(fruit)
 
 # lets break the for loop
 # first of all I is just a varible and although the common term for a variable in a for loop is i, the varible i can be named anything
@@ -21,10 +21,10 @@ for fruit in fruits:
 # this is an easier and simpler way of doing that
 # lets look at another example
 
-for i in range(1,11): 
+for i in range(1,11):
     print(i)
     
-
+print(range(1,4))
 # range is a function that returns a sequence of numbers from the first argument to the second argument -->  range((start, inclusive),(end,not inclusive),(step, default is 1 if not specified))
 # in this case, we are iterating though each value from 1-10 and printing the result
 # we can iterate through any type of sequence
