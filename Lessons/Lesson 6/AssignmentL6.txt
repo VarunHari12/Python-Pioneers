@@ -7,11 +7,11 @@ do this by making a for loop to add all the values in the list. Then divide by t
 
 calculate_grade(score, total): This function takes a student's score and the total possible score as parameters and returns the corresponding letter grade based on the following grading scale:
 
-A: 90-100 "A"
-B: 80-89
-C: 70-79 "C"
-D: 60-69
-F: 0-59
+A: 90-100 (0.9 - 1) "A"
+B: 80-89 (0.8-0.89) "B" 
+C: 70-79 (0.7-0.79) "C"
+D: 60-69 (0.6 - 0.69) "D"
+F: 0-59 anything else "F"
 
 calculate_final_grade(assignments, exam): This function takes a list of assignment scores and an exam score as parameters. It calculates the average assignment and exam score to determine the final grade. 
 The function should call the calculate_average() and calculate_grade() functions to calculate and return the final letter grade.

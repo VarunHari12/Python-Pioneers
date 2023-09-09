@@ -24,7 +24,7 @@ for fruit in fruits:
 for i in range(1,11):
     print(i)
     
-print(range(1,4))
+
 # range is a function that returns a sequence of numbers from the first argument to the second argument -->  range((start, inclusive),(end,not inclusive),(step, default is 1 if not specified))
 # in this case, we are iterating though each value from 1-10 and printing the result
 # we can iterate through any type of sequence

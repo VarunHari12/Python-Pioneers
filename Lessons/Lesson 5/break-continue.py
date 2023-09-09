@@ -65,6 +65,7 @@ while True:
 
     print("please input a digit")
 
+
 # In this case we are actually using a break and a continue
 # In this case, if the user guesses the correct number they break out of the "infinite loop"
 # if they get the number worng, it uses a continue to ask the guess again

@@ -1,0 +1,39 @@
+Question 1: What is the difference between the string "5" and the int 5?
+
+
+Question 2: What will the output of following code segment be? Explain the results in steps.
+
+num = input("Give me a positive integer: ")
+
+num = int(num)
+
+for i in range(num):
+
+    if i % 2 == 0:
+        print(i)
+
+
+
+
+Question 3 (this one is a more challenging problem): What will the output of following code segment be? Explain the results in steps.
+
+num1 = 1
+while num1 <= 4:
+    num2 = 0
+    while  num2 <= 3 :
+        print(num1*num2, end=" ")
+        num2 += 1
+    print()
+    num1 += 1
+
+
+
+Question 4: Please write a program that takes the average of a list of numbers. Then use loops and consitionals to make 2 lists,
+one list that contains all numbers above tha average, and one list for all the numbers below the average. Print all 3 lists.
+
+
+Questions 5 (challenge): Create a number guessing game, (from 1-100), that keeps asking the user for a number until they get the 
+number correct. Additionally let them know if they were close. Use this metric to tell them how close they were:
+
+within 5: "Very Close!"
+within 10: "Close"
