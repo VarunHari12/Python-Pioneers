@@ -27,7 +27,7 @@ def Hello(name):
 # lets call this function
 # a call to a function is essentially just using a function
 
-Hello("Max")
+Hello("Tejas")
 
 # we must say the name of the function then in the parentheses, list a value for every argument (parameter and argument are interchangle terms) the function needs in the same exact order
 
@@ -54,6 +54,7 @@ Hello_extra(gender = "male", name = "Varun", age = 15)
 # we can pass any type of varible as an argument
 # we can also make a function with no arguments
 
+
 def Hello_World():
     print("Hello World")
 
@@ -61,7 +62,7 @@ def Hello_World():
 
 # when you want to use something as a placeholder you can do this
 
-def empty():
+def add():
     pass
 
 
@@ -74,6 +75,10 @@ def add(x,y):
     result = x+y
 
 print(add(3,6))
+
+import math
+
+print(math.pow(2,3))
 
 
 # this doesnt actually do anything since the fucntion never RETURNS a value back to the user

@@ -2,12 +2,14 @@
 # think of it as an if statement that constantly keeps replaying itself
 
 # ex.
-x = 0
+x = 1
 
 while x != 6:
-    x += 2 # this is called an assignment operator (it is the same as saying x = x+2) it just adds whatever value you put to the varible
+    x += 2  # this is called an assignment operator (it is the same as saying x = x+2) it just adds whatever value you put to the varible
     print(x)
-
+    
+    
+    
 
 # lets break down the anatomy of a while loop
 

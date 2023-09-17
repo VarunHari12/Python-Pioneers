@@ -35,7 +35,7 @@ def checkAndDisplayBudget(str, cats, revised, status, time):
     # If the status is check, it checks what the first incorrect budget is that has not already been marked incorrect
     elif status == "check":
         
-        # The dictionary with the correct budgets
+        # The  with the correct budgets
         correct = {"Housing" : int(total*0.35), "Food" : int(total*0.15), "Insurance": int(total*0.20), "Transport" : int(total*0.15), "Medical" : int(total*0.1), "Leisure" : int(total*0.05)}
         
         

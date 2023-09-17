@@ -32,6 +32,14 @@ while num < 10:
         continue
 
     print(num)
+    
+
+for i in range(1,10):
+    if i == 5:
+        continue
+    else:
+        i = i*3
+    print(i)
 
 # by using the continue statement we can skip printing all the numbers that are even and only print the odds
 
@@ -40,7 +48,7 @@ while num < 10:
 # The break statement completely ends the loop no matter if the condition is satisfied
 
 
-for i in range(10):
+for i in range(0,10):
     print(i)
     if i == 2:
         break

@@ -10,8 +10,7 @@ for fruit in fruits:
 # first of all I is just a varible and although the common term for a variable in a for loop is i, the varible i can be named anything
 # to make this simpler we will just write it this way
 
-for fruit in fruits:
-    print(fruit)
+
 
 # Essentially this means, for every "fruit" in the list "fruits". Print that fruit  
 # The in keyword is a membership operator which means it iterates through every "member" of the fruits list
@@ -21,7 +20,7 @@ for fruit in fruits:
 # this is an easier and simpler way of doing that
 # lets look at another example
 
-for i in range(1,11):
+for i in range(1,11): # [1,2,3,4,5,6,7,8,10]
     print(i)
     
 
