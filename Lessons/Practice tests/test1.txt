@@ -37,3 +37,60 @@ number correct. Additionally let them know if they were close. Use this metric t
 
 within 5: "Very Close!"
 within 10: "Close"
+
+
+Q1: The string "5" cant be used for math as it is just considered text. The int 5 can be used for math.
+
+Q2: The user will give a number. That will then be converted to an integer. Using a loop and
+a modulus, the loop will print out all of the numbers divisblke by 2
+
+Q3: This will print out the first 4 multiples of the numbers 1-3 using nested loops.
+
+Q4:
+
+list1 = [1,5,3,8,10,2,5,6,2]
+
+sum = 0
+
+for i in list1:
+    sum+=i
+
+average = sum/len(list1)
+lessList = []
+greaterList = []
+
+for i in list1:
+    if i < average:
+        lessList.append(i)
+    elif i> average:
+        greaterList.append(i)
+
+print(greaterList)
+print(lessList)
+
+
+
+Q5:
+
+number = 15
+
+while True:
+    guess = input("Guess my number (1-20): ")
+    digit = guess.isdigit()
+
+    if digit == True:
+        if int(guess) == number:
+            print("You got the number correct! ")
+            break
+        else:
+            guess = int(guess)
+            if abs(number-guess) <= 5:
+                print("Very Close!")
+            elif abs(number-guess) <= 10:
+                print("Close")
+                continue
+            else:
+                print("You got it incorrect! ")
+                continue
+
+    print("please input a digit")
