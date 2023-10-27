@@ -1,7 +1,7 @@
-# lets do some review before we get started witht he complicated stuff
+# lets do some review before we get started with he complicated stuff
 
 
-# Conditionals: Statements that can allolw the porgram to choose between different operations based on a value
+# Conditionals: Statements that can allow the porgram to choose between different operations based on a value
 
 mood = "Sad"
 
@@ -49,7 +49,7 @@ fruits = ["apple", "orange", "blueberry", "grape"]
 
 for fruit in fruits:
     print(fruit)
-    
+
 
 # This is a while loop, it keeps iterating until a certain condition is false
     
@@ -91,7 +91,7 @@ while True:
 # a list is an ordered and mutable collection of data that can be indexed to
 # ex.
 
-names = ["John", "Bob", "Jimmy", "Emily"] 
+names = ["John", "Bob", "Jimmy", "Emily"]
 
 print(names)
 
@@ -143,7 +143,7 @@ grades["English"] = "C"
 print(grades["English"])
 
 
-# Functions: PRebuilt sets of code that we can use with customized inputs as tools 
+# Functions: Prebuilt sets of code that we can use with customized inputs as tools 
 
 def Hello_extra(name,age,gender):
     print("Hello " + name + " you are " + str(age) + " years old and you are a " + gender) 
@@ -159,5 +159,5 @@ def add(x,y):
     result = x+y
     return result
 
-result = add(3,6) # just like saying result = 9 (remember you can stroe operation in varible even if they arent mathematical)
+result = add(3,6) # just like saying result = 9 (remember you can store operation in varible even if they arent mathematical)
 print(result)

@@ -1,0 +1,8 @@
+1. Create a calculator that can allow the user to choose to do +,-,*/ with 2 numbers of their choice
+2. Catch any TypeError excpetions and display a custom message to let the user know what they did wrong
+3. Catch any DivisionByZero excpetions display a custom message to let the user know what they did wrong
+4. Use a raise statement to raise an "error" if the user selects and oprator that is not listed
+5. Any other errors that occur shoudl be caught as a general excpetion and a message should be displayed that lets the user knoe that something went wrong
+6. Use functions to execute the actual operations and use return statements to get the value back
+7. Print the final result to the terminal
+8. (optional) use a finally statement to let the user know that the program was comepleted
