@@ -39,6 +39,10 @@ except Exception as e:
     print("Something's wrong")
 else:
     print(result)
+    x = "hello"
+
+    if not type(x) is int:
+        raise Exception("Only integers are allowed")
 finally:
     print("Done")
     
@@ -49,10 +53,7 @@ finally:
 # this can be useful if you want to throw errors to the user that are not actually computational errors
 # for example:
 
-x = "hello"
 
-if type(x) is int == False:
-  raise TypeError("Only integers are allowed")
 
 # this will basically say the name of the error and a customized message
 # (you can also just right excpetion if you want to send a general message)
