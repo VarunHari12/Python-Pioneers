@@ -1,0 +1,15 @@
+
+Create a Python program that simulates a simple bank account system. Implement the following classes:
+
+Account:
+
+Attributes: account_number, account_holder, and balance.
+
+Methods:
+__init__(self, account_number, account_holder, balance): Constructor to initialize the account details.
+
+deposit(self, amount): Method to deposit a specified amount into the account.
+
+withdraw(self, amount): Method to withdraw a specified amount from the account.
+
+get_balance(self): Method to retrieve the current balance.

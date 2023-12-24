@@ -1,8 +1,3 @@
-# you can think of a class as a blueprint
-# an object is an instance of a class with certain attributes and methods
-# a class would be a car but an object would be a 2022 ford f150
-
-
 class Car:
 
     # class variablea are variables defined in the class but no in the init method
