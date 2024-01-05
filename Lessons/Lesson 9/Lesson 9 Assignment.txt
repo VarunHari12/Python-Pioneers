@@ -12,4 +12,4 @@ deposit(self, amount): Method to deposit a specified amount into the account.
 
 withdraw(self, amount): Method to withdraw a specified amount from the account.
 
-get_balance(self): Method to retrieve the current balance.
+get_balance(self): Method to retrieve the current balance as well the account_holder, number balance.

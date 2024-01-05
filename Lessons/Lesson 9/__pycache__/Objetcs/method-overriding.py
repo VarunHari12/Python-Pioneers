@@ -6,8 +6,9 @@ class Animal:
 
 class Rabbit(Animal):
 
-    def eat(self): # by usinmg the same name and parameters as a method from the parent class, we are overriding the method to define a more specific implementation of the method
-        print("This rabbit is eeating carrots")
+    def eat(self): # by using the same name and parameters as a method from the parent class, we are overriding the method to define 
+    # a more specific implementation of the method
+        print("This rabbit is eating carrots")
 
 
 # method overriding is used to proviide a more specific implementation of a method for a class

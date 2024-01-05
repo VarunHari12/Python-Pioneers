@@ -1,0 +1,8 @@
+Make a python file writer
+
+This should be a program that allows a user to write, append, delete, move, copy and read files. 
+It should take a user input of a path that a user wants to use (2 files in the case of copy and move) as well
+as an input for mode they want to use. 
+Then it should perform the operation.
+
+optional: Use except statments to make sure no errors occur
