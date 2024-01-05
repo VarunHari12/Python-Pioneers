@@ -1,4 +1,4 @@
-Make a python file writer
+Make a python file application
 
 This should be a program that allows a user to write, append, delete, move, copy and read files. 
 It should take a user input of a path that a user wants to use (2 files in the case of copy and move) as well
